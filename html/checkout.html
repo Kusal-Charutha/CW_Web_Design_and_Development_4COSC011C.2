@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Checkout Page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="../css/checkout.css">
+  
+</head>
+<body onload="load()">
+    <div class="checkoutpage">
+    <div id="details">
+    <h2 class="header">Order Details</h2>
+    <table>
+        <tr>
+            <td><p>Reference Number: </p></td>
+            <td><span id="result"></span></td>
+        </tr>
+        <tr>
+            <td><p>Email: </p></td>
+            <td><span id="inputField1">fghfgh</span></td>
+        </tr>
+        <tr>
+            <td> <p>Total Cost: </p></td>
+            <td><span id="total_cost">0</span></td>
+        </tr>
+       
+    </table>
+    </div>
+    
+    <div id="paymentdetails">
+    <div class="paymentdetails1">
+        <h2 class="header">Payment Details</h2>
+        <p>* indicates a Required field </p>
+        <div class="card_details">
+            <label id="Cardnumber">* Card number</label>
+            <input type="password" id="cardnumber" class="card" placeholder="XXXX-XXXX-XXXX-XXXX" required>
+            <label id="cardname">* Cardholder's name</label>
+            <input type="text" id="Cardholder_name" class="card" placeholder="Ex:- John Mark" required>
+            <br><br>
+        </div>
+    </div>
+    <div class="paymentdetails2">
+        <div class="card_details2">
+            <label id="expirydate">*Expiry Date</label>
+            <input type="text" id="month" name="month" pattern="[0-9]{2}" placeholder="MM" size="2" class="card2" required>
+            <label id="year1">/</label>
+            <input type="text" id="year" name="year" pattern="[0-9]{4}" placeholder="YYYY" size="4" class="card2" required>
+            
+            <label id="code">*Security code</label>
+            <input type="password" id="pin" size="3" class="card2" required>
+            <img src="photos/card.jpg" height="50" width="60" alt="img">
+            <br><br>
+        </div>
+        <div>
+            <img src="../images/visa.jpg" height="20%" id="visa" alt="img">
+            <img src="../images/Paypal.jpg" height="20%"  id="paypal" alt="img">
+            <img src="../images/MasterCard.jpg" height="20%"  id="mastercard" alt="img">
+        </div>
+    </div>
+</div>
+    <div class="address">
+        <button class="edit-btn" onclick="expand()">Close</button>
+        <h3 class="header">Address</h3>
+        
+        <p id="address_data"></p>
+        <div class="edit-fields1">
+        <form class="addressform">
+          <label for="address1">*Address line 1:</label>
+          <input type="text" placeholder="Address line 1" id="address1" class="address_field" required>
+          <br><br>
+          <label for="address2">Address line 2:</label>
+          <input type="text" placeholder="Address line 2" id="address2" class="address_field">
+          <br><br>
+          <label for="city">*City:</label>
+          <input type="text" placeholder="City" id="city" class="address_field" required>
+          <br><br>
+          <label for="state">State/Province:</label>
+          <input type="text" placeholder="State" id="state" class="address_field">
+          <br><br>
+          <label for="zip"> *Zip:</label>
+          <input type="text" placeholder="Zip" id="zip" class="address_field" required>
+          <br><br>
+          <input type="button" value="Save" class="save-btn" onclick="save1()">
+          <!-- <button type="reset" class="cancel">Cancel</button> -->
+        </form>
+        </div>
+      </div>
+
+      <div class="contact">
+        <button class="edit-btn2" onclick="expand2()">Close</button>
+        <h3 class="header">Contact Details</h3>
+        <p id="number"></p>
+        <p id="email1"></p>
+        <div class="edit-fields2">
+            <form class="contactform">
+          <label id="contact_num">Contact number:</label>
+          <input type="text" placeholder="Contact number" id="contactnum" class="address_field">
+          <br><br>
+          <label for="email">Email:</label>
+          <input type="email" placeholder="Email" id="email" class="address_field">
+          <br><br>
+          <input type="button" value="Save" class="save-btn" onclick="save2()">
+          <!-- <button type="reset" class="cancel">Cancel</button> -->
+            </form>
+        </div>
+
+      </div>
+      <div class="button">
+      <input type="button" value="Make Payment" class="makepayment" onclick="save3()">
+      <button type="reset" class="cancel2" onclick="back()">Cancel</button>
+    </div>
+  
+ 
+  
+    <script src="../js/checkout.js"></script>
+ 
+ <script>
+    var randomNumber = Math.floor(Math.random() * 9000000000) + 1000000000;
+    document.getElementById("result").innerHTML = randomNumber;
+  </script>
+</body>
+</html>

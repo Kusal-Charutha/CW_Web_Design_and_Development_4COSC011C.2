@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{font-family: 'Roboto', sans-serif;}
+.address {
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    
+  }
+  .edit-fields1 {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .contact {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .edit-fields2 {
+    display: block;
+    margin-top: 10px;
+  }
+  .checkoutpage{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .edit-btn{
+    float: right;
+  }
+  .edit-btn2{
+    float: right;
+  }
+  body{
+    background-image: url(/photos/pexels-lukas-669584.jpg);
+    background-size:cover;
+    
+  }
+  
+  .paymentdetails1{
+    width: 867.5px;
+  }
+  .card_details #cardname{
+    margin-left: 3%;
+  }
+  #paymentdetails{
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    
+  }
+  #details{
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .paymentdetails2{
+    width: 867.5px;
+    height: 50px;
+  }
+  .card_details2{
+    position: relative;
+    width: 867.5px;
+    position: relative;
+    margin-left: 17%;
+   
+  }
+  .card_details2 #code{
+    margin-left: 14.3%;
+  }
+  .card_details2 img{
+    position: relative;
+    top: 20px;
+  }
+  .card_details2 #p1{
+    position: relative;
+    font-size: x-small;
+    left: 180px;
+    top: -25px;
+  }
+   #visa{
+    position: absolute;
+    left: 730px;
+    top: 0px;
+  }
+  #paypal{
+    position: absolute;
+    left: 630px;
+    top: 0px;
+  }
+  #mastercard{
+    position: absolute;
+    left: 520px;
+    top:1px;
+  }
+  .address_field{
+    position: relative;
+    float: right;
+    right: 300px;
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+  }
+  .cancel{
+    position: relative;
+    float: right;
+    color: #fff;
+    top: 0px;
+   
+  padding: 10px 20px;
+  border-radius: 100px;
+  border:3px solid #0ADD08 ;
+  background-color: white;
+  color: #0ADD08;
+  font-weight: bold;
+  font-size: 16px;
+
+  }
+  .cancel:hover{
+    background-color: #0ADD08;
+    color: white;
+  }
+  .save-btn{
+    position: relative;
+    color: #fff;
+    top: 0px;
+   
+  padding: 10px 20px;
+  border-radius: 100px;
+  border:3px solid #0ADD08 ;
+  background-color: white;
+  color: #0ADD08;
+  font-weight: bold;
+  font-size: 16px;
+
+  }
+  .save-btn:hover{
+    background-color: #0ADD08;
+    color: white;
+  }
+  .cancel2{
+    position: relative;
+    color: #fff;
+    top: 25px;
+   
+  padding: 10px 20px;
+  border-radius: 100px;
+  border:3px solid #0ADD08 ;
+  background-color: white;
+  color: #0ADD08;
+  font-weight: bold;
+  font-size: 16px;
+  }
+  .cancel2:hover{
+    background-color: #0ADD08;
+    color: white;
+  }
+  .card{
+    width: 230px;
+    height: 25px;
+    border-radius: 10px;
+  }
+
+  .button{
+    height: 80px;
+  }
+  .makepayment{
+    position: relative;
+    float: right;
+    color: #fff;
+    top: 25px;
+   
+  padding: 10px 20px;
+  border-radius: 100px;
+  border:3px solid #0ADD08 ;
+  color: #0ADD08;
+  background-color: white;
+  font-weight: bold;
+  font-size: 16px;
+  }
+  .makepayment:hover{
+    background-color: #0ADD08;
+    color: white;
+  }
+  .edit-btn{
+    position: relative;
+    top: 10px;
+    padding: 10px 20px;
+  border-radius: 100px;
+  border:3px solid #0ADD08 ;
+  background-color: white;
+  color: #0ADD08;
+  font-weight: bold;
+  font-size: 16px;
+  }
+  .edit-btn2{
+    position: relative;
+    top: 10px;
+    padding: 10px 20px;
+  border-radius: 100px;
+  border:3px solid #0ADD08 ;
+  background-color: white;
+  color: #0ADD08;
+  font-weight: bold;
+  font-size: 16px;
+  }
+  .edit-btn:hover{
+    background-color: #0ADD08;
+    color: white;
+  }
+  .edit-btn2:hover{
+    background-color: #0ADD08;
+    color: white;
+  }
+  
+
+
+  .col p{
+    color:#03a9f4;
+    position:relative;
+    /* left: 40%; */
+    /* top: 1000px; */
+}
+.row2 .socialmedia i
+{
+    display: inline-block;
+    color:white;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: 0.5s;
+    
+}
+.socialmedia a{
+   position:relative;
+   left: 0%;
+
+}
+.row2 .socialmedia i:hover{
+    color: #03a9f4;
+    border-radius: 20px;
+}
+.col{
+  position: relative;
+  /* top: 1550px; */
+}
+.socialmedia{
+  position: relative;
+  top: 10px;
+}
+.row2{
+  position: absolute;
+  top: 1250px;
+  text-align: center;
+  height:100px;
+  width: 169%;
+  background-color: black;
+  margin-left: -310px;
+  border: 2px solid black;
+}
+
+.header {
+  color: #03a9f4;
+}

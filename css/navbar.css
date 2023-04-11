@@ -1,0 +1,66 @@
+/* ======= NAV BAR & Footer ======= */
+
+
+/* ----- Nav Bar----- */
+  
+  .nav-bar {
+    background: linear-gradient(90deg, rgba(39,27,41,1) 0%, rgba(39,27,41,0.95) 10%, rgba(39,27,41,0.9) 20%, rgba(39,27,41,0.8) 30%, rgba(39,27,41,0.7) 40%, rgba(39,27,41,0.6) 50%, rgba(39,27,41,0.5) 60%, rgba(39,27,41,0.4) 70%, rgba(39,27,41,0.3) 80%, rgba(31,22,60,0.19917703409488796) 90%, rgba(39,27,41,0) 100%);
+    padding-left: 10%;
+    position: fixed;
+    width: 90%;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  .nav-bar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .nav-bar a:hover {
+    background-color: #dad9d915;
+    color: #a72df3;
+  }
+  
+  .nav-bar a.active {
+    background-color: #6a04aa50;
+    color: white;
+  }
+  
+  .nav-bar-right {
+    float: left;
+  }
+  
+  /* Footer */
+footer {
+  background-color: #1e1e1e;
+  text-align: center;
+  padding: 30px 0;
+}
+
+footer p{
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.editor-button{
+    font-size: 10px;
+    background-color: rgba(112, 0, 216, 0);
+    width: 7%;
+    font-weight: bold;
+    min-height: 5%;
+    color: #6c757d;
+    border-radius: 10px;
+    border-width: 0ch;
+    margin-top: 2%;
+    padding: 0.5%;
+  }
+
+.editor-button:hover{
+    background-color: rgba(65, 4, 122, 0.922);
+    color: white;
+  }

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../images/icon.ico" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>grooveGalaxy</title>
+
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/scrollbar.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+  </head>
+
+  <body>
+    <!-- Aravinda Splash Screen (Start)-->
+    <div class="splash-screen">
+      <div class="splash-content">
+        <h1><i>- Group 17 -</i></h1>
+        <h2>Team groovegalaxy</h2>
+        <br />
+        <h1>Aravinda Jayathissa</h1>
+        <h1>Kusal Gunathialake</h1>
+        <h1>Fathima Azka</h1>
+        <h1>Isuru Jayasooriya</h1>
+      </div>
+    </div>
+
+    <script>
+      window.addEventListener("load", function () {
+        setTimeout(function () {
+          document.querySelector(".splash-screen").style.display = "none";
+        }, 4000);
+      });
+
+      function setActiveState() {
+        document.getElementById("navbarHome").classList.remove("active");
+        document.getElementById("navbarComments").classList.add("active");
+      }
+    </script>
+    <!-- Aravinda Splash Screen (End)-->
+
+    <!--======== Nav Bar ========-->
+    <nav>
+      <div class="nav-bar">
+        <a href="../html/about-us.html">About us</a>
+        <a href="../html/sitemap.html">Site Map</a>
+        <a href="../html/groove-details.html">Gallery</a>
+        <a href="../html/quiz.html">Quiz</a>
+        <a href="../html/shop.html">Shop</a>
+        <a href="#comments" id="navbarComments" onclick="setActiveState()">Comments</a>
+        <a class="active" href="../html/main-page.html" id="navbarHome">Home</a>
+        <div class="nav-bar-right">
+          <a href="../html/main-page.html"
+            ><img src="../images/navlog.png" width="200px"
+          /></a>
+        </div>
+      </div>
+    </nav>
+    <!--========  Main banner ========-->
+    <div class="main-banner container" id="home">
+      <div class="logo">
+        <img src="../images/logo1.svg" />
+        <p class="web_para">
+          GrooveGalaxy is your one-stop destination for all your music album
+          needs. With a vast collection of albums from various genres, we offer
+          an incredible selection that caters to everyone's taste in music. Our
+          website is designed to be user-friendly, making it easy for you to
+          browse and purchase albums with just a few clicks. Whether you're
+          looking for old classics or new releases, we have it all. Trust us to
+          provide you with high-quality music albums that will take you on a
+          journey through different galaxies of sound. Shop now on GrooveGalaxy
+          and experience the best of music at your fingertips.
+        </p>
+      </div>
+      <div class="arrow">
+        <a href="#second">
+          <img
+            src="../images/chevron-down.svg"
+            class="img-fluid"
+            alt="chevron-down"
+          />
+        </a>
+      </div>
+    </div>
+
+    <!--========  second banner ========-->
+    <div class="second-slide" id="second">
+      <main class="container-second">
+        <section class="card">
+          <a href="../html/student_1_Classic.html">
+            <div class="product-image">
+              <img
+                class="up_layer"
+                src="../images/classic1.png"
+                draggable="false"
+              />
+              <img
+                class="dwn_layer"
+                src="../images/classic2.png"
+                draggable="false"
+              />
+            </div>
+            <div class="product-info">
+              <h2>Classic Music</h2>
+              <p>Melodic, sophisticated, timeless, orchestral, cultured.</p>
+              <br />
+            </div>
+            <div class="btn">
+              <button class="buy-btn">Read Article</button>
+            </div>
+          </a>
+          <br />
+          <p class="card-footer">Author : Student 01</p>
+        </section>
+        <section class="card">
+          <a href="../html/student_2_POP.html">
+            <div class="product-image">
+              <img
+                class="up_layer"
+                src="../images/pop1.png"
+                draggable="false"
+              />
+              <img
+                class="dwn_layer"
+                src="../images/pop2.png"
+                draggable="false"
+              />
+            </div>
+            <div class="product-info">
+              <h2>POP Music</h2>
+              <p>Catchy, upbeat, popular, danceable, contemporary.</p>
+              <br />
+            </div>
+            <div class="btn">
+              <button class="buy-btn">Read Article</button>
+            </div>
+          </a>
+          <br />
+          <p class="card-footer">Author : Student 02</p>
+        </section>
+        <section class="card">
+          <a href="../html/student_3_Rock.html">
+            <div class="product-image">
+              <img
+                class="up_layer"
+                src="../images/rock1.png"
+                draggable="false"
+              />
+              <img
+                class="dwn_layer"
+                src="../images/rock2.png"
+                draggable="false"
+              />
+            </div>
+            <div class="product-info">
+              <h2>Rock Music</h2>
+              <p>
+                Rock music is electric, energetic, raw, rebellious, and
+                distorted
+              </p>
+              <br />
+            </div>
+            <div class="btn">
+              <button class="buy-btn">Read Article</button>
+            </div>
+          </a>
+          <br />
+          <p class="card-footer">Author : Student 03</p>
+        </section>
+        <section class="card">
+          <a href="../html/student_4_Jazz.html">
+            <div class="product-image">
+              <img
+                class="up_layer"
+                src="../images/jass1.png"
+                draggable="false"
+              />
+              <img
+                class="dwn_layer"
+                src="../images/jass2.png"
+                draggable="false"
+              />
+            </div>
+            <div class="product-info">
+              <h2>Jazz Music</h2>
+              <p>Improvisational, syncopated, expressive, soulful, swinging.</p>
+              <br />
+            </div>
+            <div class="btn">
+              <button class="buy-btn">Read Article</button>
+            </div>
+          </a>
+          <br />
+          <p class="card-footer">Author : Student 04</p>
+        </section>
+      </main>
+    </div>
+
+    <!--========  Third banner ========-->
+    <div class="third-slide" id="comments">
+      <main class="container-third">
+        <div class="feedback-box">
+          <h2 class="feedback-heading">Feedback Form</h2>
+
+          <form
+            id="comment-form"
+            method="post"
+            action="#"
+            onsubmit="return validateForm()"
+          >
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email *</label>
+            <input
+              type="email"
+              placeholder="example123@gmail.com"
+              id="email"
+              name="email"
+              required
+            />
+
+            <label class="rating-label" for="rating">
+              How satisfied were you with our website today? Choose from 0 to
+              10, where 0 is extremely dissatisfied and 10 is extremely
+              satisfied. *</label
+            >
+            <div class="rating-wrapper">
+              <div class="rating-group">
+                <label class="rating-value">1</label>
+                <input
+                  class="rating-input"
+                  type="radio"
+                  id="rating1"
+                  name="rating"
+                  value="1"
+                />
+              </div>
+              <div class="rating-group">
+                <label class="rating-value">2</label>
+                <input
+                  class="rating-input"
+                  type="radio"
+                  id="rating2"
+                  name="rating"
+                  value="2"
+                />
+              </div>
+              <div class="rating-group">
+                <label class="rating-value">3</label>
+                <input
+                  class="rating-input"
+                  type="radio"
+                  id="rating3"
+                  name="rating"
+                  value="3"
+                />
+              </div>
+              <div class="rating-group">
+                <label class="rating-value">4</label>
+                <input
+                  class="rating-input"
+                  type="radio"
+                  id="rating4"
+                  name="rating"
+                  value="4"
+                />
+              </div>
+              <div class="rating-group">
+                <label class="rating-value">5</label>
+                <input
+                  class="rating-input"
+                  type="radio"
+                  id="rating5"
+                  name="rating"
+                  value="5"
+                />
+              </div>
+              <div class="rating-group">
+                <label class="rating-value">6</label>
+                <input
+                  class="rating-input"
+                  type="radio"
+                  id="rating6"
+                  name="rating"
+                  value="6"
+                />
+              </div>
+              <div class="rating-group">
+                <label class="rating-value">7</label>
+                <input
+                  class="rating-input"
+                  type="radio"
+                  id="rating7"
+                  name="rating"
+                  value="7"
+                />
+              </div>
+              <div class="rating-group">
+                <label class="rating-value">8</label>
+                <input
+                  class="rating-input"
+                  type="radio"
+                  id="rating8"
+                  name="rating"
+                  value="8"
+                />
+              </div>
+              <div class="rating-group">
+                <label class="rating-value">9</label>
+                <input
+                  class="rating-input"
+                  type="radio"
+                  id="rating9"
+                  name="rating"
+                  value="9"
+                />
+              </div>
+              <div class="rating-group">
+                <label class="rating-value">10</label>
+                <input
+                  class="rating-input"
+                  type="radio"
+                  id="rating10"
+                  name="rating"
+                  value="10"
+                />
+              </div>
+            </div>
+
+            <label class="lable-width"
+              >Please could you tell us your reasons for giving this rating?
+              *</label
+            >
+            <textarea name="comment" id="comment"></textarea>
+
+            <label class="lable-width"
+              >Please could you tell us your reasons for giving this rating?
+              *</label
+            >
+            <textarea name="comment" id="comment"></textarea>
+
+            <label class="lable-width"
+              >How do you know about groovegalaxy? (Optional)</label
+            ><br />
+            <select class="dropdown" required id="response-type">
+              <option value="">-- Please select --</option>
+              <option value="fb">Facebook</option>
+              <option value="yt">Youtube</option>
+              <option value="ig">Instagram</option>
+              <option value="tw">Twitter</option>
+              <option value="oth">other..</option>
+            </select>
+
+            <label class="lable-width"
+              >What is your purpose of using grovegalaxy? (Optional)</label
+            ><br />
+            <select id="complete-task" required>
+              <option value="">-- Please select --</option>
+              <option value="buy">Purchase Albums</option>
+              <option value="read">Read about Music</option>
+              <option value="other">Other..</option>
+            </select>
+          </form>
+
+          <button
+            id="submit-button"
+            onclick="sendEmail()"
+            class="submit-button"
+          >
+            Submit
+          </button>
+        </div>
+      </main>
+    </div>
+
+    <script src="../js/comment-form.js"></script>
+  </body>
+</html>

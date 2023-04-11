@@ -1,0 +1,77 @@
+/* ======  ABOUR US PAGE ====== */
+.about-us{
+    color: rgb(177, 177, 177);
+    width: 200px;
+    height: 200px;
+}
+
+
+.h3-profile {
+    color: rgb(177, 177, 177);
+    text-align: right;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  
+  .p-profile {
+    color: rgb(177, 177, 177);
+    text-align: right;
+    padding-top: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .st_no{
+    color: rgb(177, 177, 177);
+    padding-top: 10%;
+    padding-right: 5%;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 300%;
+  }
+  
+  .figure-profile {
+    width: 450px;
+    height: 200px;
+    background: radial-gradient(circle at top left, hsl(269, 40%, 32%), transparent 75%), hsl(269, 83%, 29%);
+    margin: 25px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.5rem;
+  }
+  
+  .figure-profile:hover {
+    background: radial-gradient(circle at top left, hsl(270, 30%, 50%), transparent 75%), hsl(269, 90%, 30%);
+  }
+
+  .pro_content{
+    display:none;
+  }
+
+  .figure-profile:hover .pro_content{
+    display:block;
+  }
+
+  .figure-profile:hover .st_no{
+    display: none;
+  }
+
+  .img-profile {
+    position: absolute;
+    left: 2%;
+    top: 0%;
+    width: 35%;
+    transform:
+      translateX(calc(var(--hover) * -15%))
+      scale(calc(1 + (var(--hover) * 0.2)));
+    transition: transform 0.2s;
+  }
+  
+  article {
+    --hover: 0;
+  }
+  
+  article:hover {
+    --hover: 1;
+  }

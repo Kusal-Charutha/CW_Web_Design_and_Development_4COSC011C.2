@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../images/icon.ico" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>QUIZ</title>
+
+    
+    <link rel="stylesheet" href="../css/navbar.css"/>
+    <link rel="stylesheet" href="../css/quiz.css" />
+    <link rel='stylesheet'
+        href='https://fonts.googleapis.com/css2?family=Noto+Sans&family=Playfair+Display&display=swap'>
+</head>
+
+<body class="body">
+    <!--======== Nav Bar ========-->
+    <nav>
+      <div class="nav-bar">
+        <a href="../html/about-us.html">About us</a>
+        <a href="../html/sitemap.html">Site Map</a>
+        <a href="../html/groove-details.html">Gallery</a>
+        <a class="active" href="../html/quiz.html">Quiz</a>
+        <a href="../html/shop.html">Shop</a>
+        <a href="../html/main-page.html">Home</a>
+        <div class="nav-bar-right">
+          <a href="../html/main-page.html"
+            ><img src="../images/navlog.png" width="200px"
+          /></a>
+        </div>
+      </div>
+    </nav>
+    <div id="info-box">
+        <div id="info-header"><span>Music Quiz: Test Your Knowledge and Save on Albums!</span></div>
+        <div class="scroll-div">
+
+            <div id="info-body">The quiz consists of <span>10 questions </span>covering a variety of topics related to
+                music such as
+                genres, famous artists, history of music.<br>
+                <br>The quiz-taker will be given a time limit of <span>1 minute</span> to answer all the questions.<br>
+
+                <br><span>If the quiz-taker answers all 10 questions correctly within the given time limit, they will be
+                    eligible
+                    for a 20% discount on their next purchase of music albums.</span><br>
+
+                <br>It's worth noting that the quiz is intended to be challenging, and not everyone may be able to
+                answer
+                all the questions correctly. However, it's a fun way to test one's knowledge of music and potentially
+                save some money on music purchases.
+            </div>
+
+        </div>
+        <div id="info-footer">
+            <button id="continue-btn">Continue</button>
+        </div>
+    </div>
+    <!-- Quiz -->
+    <main>
+        <div id="quiz-container">
+            <div class="quiz-box">
+                <header class="fixed-header">
+                    <div class="title">Your time starts NOW !!!</div>
+                    <div class="timer">
+                        <div class="time_left_txt">Time Left :</div>
+                        <div class="timer_sec">60s</div>
+                    </div>
+                    <div class="time_line"></div>
+                </header>
+                <h3>Question 01</h3>
+                <p id="question1">Which of the following is a stringed instrument?</p>
+                <form>
+                    <input type="radio" name="question1" value="incorrect" id="Q1A1">
+                    <label for="Q1A1">Saxophone</label>
+                    <br>
+
+                    <input type="radio" name="question1" value="correct" id="Q1A2">
+                    <label for="Q1A2">Viola</label>
+                    <br>
+
+                    <input type="radio" name="question1" value="incorrect" id="Q1A3">
+                    <label for="Q1A3">French horn</label>
+                    <br>
+
+                    <input type="radio" name="question1" value="incorrect" id="Q1A4">
+                    <label for="Q1A4">Bassoon</label>
+                    <br>
+                </form>
+            </div>
+            <div class="quiz-box">
+                <h3>Question 02</h3>
+                <p id="question2">Which of the following is a famous jazz trumpeter?</p>
+                <form>
+                    <div class="answer">
+                        <input type="radio" name="question2" value="incorrect" id="Q2A1">
+                        <label for="Q2A1">John Coltrane</label>
+                        <br>
+
+                        <input type="radio" name="question2" value="incorrect" id="Q2A2">
+                        <label for="Q2A2">Charlie Parker</label>
+                        <br>
+
+                        <input type="radio" name="question2" value="incorrect" id="Q2A3">
+                        <label for="Q2A3">Louis Armstrong</label>
+                        <br>
+
+                        <input type="radio" name="question2" value="correct" id="Q2A4">
+                        <label for="Q2A4">Miles Davis</label>
+                        <br>
+                    </div>
+                </form>
+            </div>
+            <div class="quiz-box">
+                <h3>Question 03</h3>
+                <p id="question3">What genre of music did Elvis Presley popularize?</p>
+                <form>
+                    <input type="radio" name="question3" value="incorrect" id="Q3A1">
+                    <label for="Q3A1">Country</label>
+                    <br>
+
+                    <input type="radio" name="question3" value="correct" id="Q3A2">
+                    <label for="Q3A2">Rock and roll</label>
+                    <br>
+
+                    <input type="radio" name="question3" value="incorrect" id="Q3A3">
+                    <label for="Q3A3">Blues</label>
+                    <br>
+
+                    <input type="radio" name="question3" value="incorrect" id="Q3A4">
+                    <label for="Q3A4">Jazz</label>
+                    <br>
+                </form>
+            </div>
+            <div class="quiz-box">
+                <h3>Question 04</h3>
+                <p id="question4">Which of the following is a famous classical composer?</p>
+                <form>
+                    <input type="radio" name="question4" value="incorrect" id="Q4A1">
+                    <label for="Q4A1">Johann Strauss II</label>
+                    <br>
+
+                    <input type="radio" name="question4" value="incorrect" id="Q4A2">
+                    <label for="Q4A2">Georges Bizet</label>
+                    <br>
+
+                    <input type="radio" name="question4" value="correct" id="Q4A3">
+                    <label for="Q4A3">Franz Schubert</label>
+                    <br>
+
+                    <input type="radio" name="question4" value="incorrect" id="Q4A4">
+                    <label for="Q4A4">Sergei Rachmaninoff</label>
+                    <br>
+                </form>
+            </div>
+            <div class="quiz-box">
+                <h3>Question 05</h3>
+                <p id="question5">Which of the following is a traditional music genre from Ireland?</p>
+                <form>
+                    <input type="radio" name="question5" value="incorrect" id="Q5A1">
+                    <label for="Q5A1">Flamenco</label>
+                    <br>
+
+                    <input type="radio" name="question5" value="incorrect" id="Q5A2">
+                    <label for="Q5A2">Salsa</label>
+                    <br>
+
+                    <input type="radio" name="question5" value="incorrect" id="Q5A3">
+                    <label for="Q5A3">Reggae</label>
+                    <br>
+
+                    <input type="radio" name="question5" value="correct" id="Q5A4">
+                    <label for="Q5A4">Celtic</label>
+                    <br>
+
+                </form>
+            </div>
+            <div class="quiz-box">
+                <h3>Question 06</h3>
+                <p id="question6">What is the most popular traditional drum used in Sri Lankan music?</p>
+                <form>
+                    <input type="radio" name="question6" value="incorrect" id="Q6A1">
+                    <label for="Q6A1">Tabla</label>
+                    <br>
+
+                    <input type="radio" name="question6" value="incorrect" id="Q6A2">
+                    <label for="Q6A2">Bongo</label>
+                    <br>
+
+                    <input type="radio" name="question6" value="incorrect" id="Q6A3">
+                    <label for="Q6A3">Dhol</label>
+                    <br>
+
+                    <input type="radio" name="question6" value="correct" id="Q6A4">
+                    <label for="Q6A4">Thammattama</label>
+                    <br>
+                </form>
+            </div>
+            <div class="quiz-box">
+                <h3>Question 07</h3>
+                <p id="question7">Who is known as the "Father of Sri Lankan Folk Music"?</p>
+                <form>
+                    <input type="radio" name="question7" value="incorrect" id="Q7A1">
+                    <label for="Q7A1">Gunadasa Kapuge</label>
+                    <br>
+
+                    <input type="radio" name="question7" value="incorrect" id="Q7A2">
+                    <label for="Q7A2">Victor Ratnayake</label>
+                    <br>
+
+                    <input type="radio" name="question7" value="incorrect" id="Q7A3">
+                    <label for="Q7A3">Sanath Nandasiri</label>
+                    <br>
+
+                    <input type="radio" name="question7" value="correct" id="Q7A4">
+                    <label for="Q7A4">W.D.Amaradewa</label>
+                    <br>
+                </form>
+            </div>
+            <div class="quiz-box">
+                <h3>Question 08</h3>
+                <p id="question8">What is the traditional Sri Lankan folk music genre called?</p>
+                <form>
+                    <input type="radio" name="question8" value="incorrect" id="Q8A1">
+                    <label for="Q8A1">Kaffrinha</label>
+                    <br>
+
+                    <input type="radio" name="question8" value="correct" id="Q8A2">
+                    <label for="Q8A2">Kandyan</label>
+                    <br>
+
+                    <input type="radio" name="question8" value="incorrect" id="Q8A3">
+                    <label for="Q8A3">Baila</label>
+                    <br>
+
+                    <input type="radio" name="question8" value="incorrect" id="Q8A4">
+                    <label for="Q8A4">Sabaragamuwa</label>
+                    <br>
+
+                </form>
+            </div>
+            <div class="quiz-box">
+                <h3>Question 09</h3>
+                <p id="question9">Which of the following is NOT a member of The Beatles?</p>
+                <form>
+                    <input type="radio" name="question9" value="incorrect" id="Q9A1">
+                    <label for="Q9A1">John Lennon</label>
+                    <br>
+
+                    <input type="radio" name="question9" value="incorrect" id="Q9A2">
+                    <label for="Q9A2">Paul McCartney</label>
+                    <br>
+
+                    <input type="radio" name="question9" value="incorrect" id="Q9A3">
+                    <label for="Q9A3">Ringo Starr</label>
+                    <br>
+
+                    <input type="radio" name="question9" value="correct" id="Q9A4">
+                    <label for="Q9A4">Mick Jagger</label>
+                    <br>
+                </form>
+            </div>
+            <div class="quiz-box">
+                <h3>Question 10</h3>
+                <p id="question10">Who is considered the "Queen of Pop"?</p>
+                <form>
+                    <input type="radio" name="question10" value="incorrect" id="Q10A1">
+                    <label for="Q10A1">Lady Gaga</label>
+                    <br>
+
+                    <input type="radio" name="question10" value="incorrect" id="Q10A2">
+                    <label for="Q10A2">Beyoncé</label>
+                    <br>
+
+                    <input type="radio" name="question10" value="correct" id="Q10A3">
+                    <label for="Q10A3">Madonna</label>
+                    <br>
+
+                    <input type="radio" name="question10" value="incorrect" id="Q10A4">
+                    <label for="Q10A4">Rihanna</label>
+                    <br><br>
+
+                </form>
+            </div>
+            <div id="submit-container">
+                <button id="submit-btn">Submit</button>
+            </div>
+        </div>
+        <div class="result-box" id="result">
+            <div class="score_board">
+                <button class="quit" id="quit-btn">Restart Quiz</button>
+            </div>
+            <div class="result-con" id="res-content">
+                <h3 class="result-title" id="res-title">Quiz Summary...</h3>
+                <p id="marks">Marks</p>
+                <ul id="ans-list"></ul>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p class="text-muted">This is a demo website created for educational purposes only. Images are from Unsplash and icons are from Font Awesome.</p>
+        <p class="text-muted">&copy; 2023 groovegalaxy.pvt(ltd). All rights reserved.</p>
+        <a href="../html/student_3.html"><button class="editor-button">Page Editor</button></a>
+    </footer>
+    <script src="../js/quiz.js"></script>
+
+</body>
+
+</html>
