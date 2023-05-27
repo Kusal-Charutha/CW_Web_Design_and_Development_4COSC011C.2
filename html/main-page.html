@@ -206,15 +206,9 @@
         <div class="feedback-box">
           <h2 class="feedback-heading">Feedback Form</h2>
 
-          <form
-            id="comment-form"
-            method="post"
-            action="#"
-            onsubmit="return validateForm()"
-          >
+          <form action="mailto:support@grovegalaxy.com;kusalcharutha@gmail.com" method="post" enctype="text/plain">
             <label for="name">Name *</label>
             <input type="text" id="name" name="name" required />
-
             <label for="email">Email *</label>
             <input
               type="email"
@@ -223,7 +217,6 @@
               name="email"
               required
             />
-
             <label class="rating-label" for="rating">
               How satisfied were you with our website today? Choose from 0 to
               10, where 0 is extremely dissatisfied and 10 is extremely
@@ -336,49 +329,40 @@
               >Please could you tell us your reasons for giving this rating?
               *</label
             >
-            <textarea name="comment" id="comment"></textarea>
+            <textarea name="Reasons for giving this rating" id="comment" required></textarea>
 
             <label class="lable-width"
-              >Please could you tell us your reasons for giving this rating?
+              >Other Sugessions or comments
               *</label
             >
-            <textarea name="comment" id="comment"></textarea>
+            <textarea name="comments" id="comment" ></textarea>
 
             <label class="lable-width"
-              >How do you know about groovegalaxy? (Optional)</label
+              >How do you know about groovegalaxy? *</label
             ><br />
-            <select class="dropdown" required id="response-type">
-              <option value="">-- Please select --</option>
+            <select class="dropdown"  id="response-type" >
               <option value="fb">Facebook</option>
               <option value="yt">Youtube</option>
               <option value="ig">Instagram</option>
               <option value="tw">Twitter</option>
-              <option value="oth">other..</option>
             </select>
 
             <label class="lable-width"
-              >What is your purpose of using grovegalaxy? (Optional)</label
+              >What is your purpose of using grovegalaxy? *</label
             ><br />
             <select id="complete-task" required>
-              <option value="">-- Please select --</option>
               <option value="buy">Purchase Albums</option>
               <option value="read">Read about Music</option>
-              <option value="other">Other..</option>
             </select>
-          </form>
 
-          <button
-            id="submit-button"
-            onclick="sendEmail()"
-            class="submit-button"
-          >
-            Submit
-          </button>
+            
+          <input class="submit-button" type="submit" value="Send">
+          </form>
+          <!-- <button onclick="window.open('mailto:support@grovegalaxy.com;kusalcharutha@gmail.com');" id="submit-button" class="submit-button">Submit</button> -->
         </div>
       </main>
     </div>
     
-     
   <footer>
   <p class="text-muted">This is a demo website created for educational purposes only. Images are from Unsplash and icons are from Font Awesome.</p>
   <p class="text-muted">&copy; 2023 groovegalaxy.pvt(ltd). All rights reserved.</p>
